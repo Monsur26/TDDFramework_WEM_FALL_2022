@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\WEM_FALL2022_TDDFramework\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-26T11:09:38 EDT" name="HomePage Amazon Test" finished-at="2023-03-26T11:09:48 EDT" duration-ms="9746">
+    <groups>
+    </groups>
+    <test started-at="2023-03-26T11:09:38 EDT" name="HomePage" finished-at="2023-03-26T11:09:48 EDT" duration-ms="9746">
+      <class name="HomepageTest.HomepageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:HomepageTest.HomepageTest@f0c8a99]" started-at="2023-03-26T11:09:38 EDT" name="extentSetup" finished-at="2023-03-26T11:09:38 EDT" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e495b48]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\WEM_FALL2022_TDDFramework\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:HomepageTest.HomepageTest@f0c8a99]" started-at="2023-03-26T11:09:38 EDT" name="setUp" finished-at="2023-03-26T11:09:44 EDT" duration-ms="5392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:HomepageTest.HomepageTest@f0c8a99]" started-at="2023-03-26T11:09:44 EDT" name="startExtent" finished-at="2023-03-26T11:09:44 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void HomepageTest.HomepageTest.TestLanguageMouseHoverandLanguageSelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="TestLanguageMouseHoverandLanguageSelection()[pri:0, instance:HomepageTest.HomepageTest@f0c8a99]" started-at="2023-03-26T11:09:44 EDT" name="TestLanguageMouseHoverandLanguageSelection" finished-at="2023-03-26T11:09:46 EDT" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLanguageMouseHoverandLanguageSelection -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:HomepageTest.HomepageTest@f0c8a99]" started-at="2023-03-26T11:09:46 EDT" name="afterEachTestMethod" finished-at="2023-03-26T11:09:48 EDT" duration-ms="1631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLanguageMouseHoverandLanguageSelection status=SUCCESS method=HomepageTest.TestLanguageMouseHoverandLanguageSelection()[pri:0, instance:HomepageTest.HomepageTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:HomepageTest.HomepageTest@f0c8a99]" started-at="2023-03-26T11:09:48 EDT" name="cleanUp" finished-at="2023-03-26T11:09:48 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:HomepageTest.HomepageTest@f0c8a99]" started-at="2023-03-26T11:09:48 EDT" name="generateReport" finished-at="2023-03-26T11:09:48 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- HomepageTest.HomepageTest -->
+    </test> <!-- HomePage -->
+  </suite> <!-- HomePage Amazon Test -->
+</testng-results>
