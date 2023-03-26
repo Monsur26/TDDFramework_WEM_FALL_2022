@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-HomePage_Amazon_Test" title="HomepageTest.HomepageTest" class="method navigator-link" hash-for-method="TestLanguageMouseHoverandLanguageSelection">TestLanguageMouseHoverandLanguageSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HomePage_Amazon_Test" title="HomepageTest.HomepageTest" class="method navigator-link" hash-for-method="testAmazonSearchProduct">testAmazonSearchProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-HomePage_Amazon_Test -->
@@ -129,6 +134,13 @@
                   <a name="TestLanguageMouseHoverandLanguageSelection">
                   </a> <!-- TestLanguageMouseHoverandLanguageSelection -->
                   <span class="method-name">TestLanguageMouseHoverandLanguageSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAmazonSearchProduct">
+                  </a> <!-- testAmazonSearchProduct -->
+                  <span class="method-name">testAmazonSearchProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,16 +204,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestLanguageMouseHoverandLanguageSelection')
+data.setCell(0, 1, 'testAmazonSearchProduct')
 data.setCell(0, 2, 'HomepageTest.HomepageTest')
-data.setCell(0, 3, 2657);
+data.setCell(0, 3, 4443);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestLanguageMouseHoverandLanguageSelection')
+data.setCell(1, 2, 'HomepageTest.HomepageTest')
+data.setCell(1, 3, 2995);
 window.suiteTableData['HomePage_Amazon_Test']= { tableData: data, tableDiv: 'times-div-HomePage_Amazon_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-HomePage_Amazon_Test">
               </div> <!-- times-div-HomePage_Amazon_Test -->
             </div> <!-- times-div -->
@@ -229,7 +245,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">HomepageTest.HomepageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@6e495b48)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@409986fe)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
@@ -238,23 +254,43 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void HomepageTest.HomepageTest.TestLanguageMouseHoverandLanguageSelection())</span>
-                <span class="method-start">5645 ms</span>
+                <span class="method-start">6990 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TestLanguageMouseHoverandLanguageSelection</span>
-                <span class="method-start">5657 ms</span>
+                <span class="method-start">6998 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=TestLanguageMouseHoverandLanguageSelection status=SUCCESS method=HomepageTest.TestL...)</span>
-                <span class="method-start">8317 ms</span>
+                <span class="method-start">9997 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">9948 ms</span>
+                <span class="method-start">11716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 111, https://www.amazon.com/)</span>
+                <span class="method-start">11722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void HomepageTest.HomepageTest.testAmazonSearchProduct())</span>
+                <span class="method-start">16976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAmazonSearchProduct</span>
+                <span class="method-start">16978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=testAmazonSearchProduct status=SUCCESS method=HomepageTest.testAmazonSearchProduct(...)</span>
+                <span class="method-start">21423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">22406 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">10016 ms</span>
+                <span class="method-start">22439 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

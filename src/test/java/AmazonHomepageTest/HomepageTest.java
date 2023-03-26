@@ -1,9 +1,8 @@
-package HomepageTest;
+package AmazonHomepageTest;
 
 import Homepage.Homepage;
 import common.WebAPI;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class HomepageTest extends WebAPI {
@@ -18,6 +17,11 @@ public class HomepageTest extends WebAPI {
         getInitElements();
         homepage.mouseHoverLanguageMenu();
 
+    }
+    @Test()
+    public void testAmazonSearchProduct(){
+        getInitElements();
+        homepage.searching_a_Product_in_AmazonSearchBar();
     }
 
 }
